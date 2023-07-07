@@ -38,8 +38,8 @@ jobs:
 #            targets: "JCG-836PRO JCG-AC860M JCG-Y2 DIR-882 MI-R3G B70"
 #          - build_variant: "mt7628"
 #            targets: "360P2 HC5861B HC5761A HC5661A MI-NANO MZ-R13 MZ-R13P"
-           - build_variant: "mt7628"
-             targets: "360P2"
+           - build_variant: "mt7620"
+             targets: "PSG1218"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@v2
