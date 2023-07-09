@@ -39,7 +39,7 @@ jobs:
 #          - build_variant: "mt7628"
 #            targets: "360P2 HC5861B HC5761A HC5661A MI-NANO MZ-R13 MZ-R13P"
            - build_variant: "mt7620"
-             targets: "PSG1218"
+             targets: "PSG1218_nano"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@v2
